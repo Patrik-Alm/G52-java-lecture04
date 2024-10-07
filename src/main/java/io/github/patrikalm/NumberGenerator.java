@@ -5,7 +5,7 @@ public class NumberGenerator {
 
     public static int setRandomNumber() {
 
-        int randomNumber = (int) Math.random() * 499 +1;
+        int randomNumber = (int) (Math.random() * 499);
 
         return randomNumber;
     }
