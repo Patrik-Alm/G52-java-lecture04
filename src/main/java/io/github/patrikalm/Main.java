@@ -4,12 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
 
+      TestRandomSequence.testRandomSequence();
 
-        int randomNumber = NumberGenerator.setRandomNumber();
-        System.out.println(randomNumber);
     }
-
-
-
-
 }
