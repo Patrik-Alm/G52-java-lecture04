@@ -5,9 +5,7 @@ public class NumberGenerator {
 
     public static int setRandomNumber() {
 
-        int randomNumber = (int) (Math.random() * 501);
-
-        return randomNumber;
+        return (int) (Math.random() * 501);
     }
 
 }
